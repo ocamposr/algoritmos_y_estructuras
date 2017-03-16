@@ -23,12 +23,15 @@ static void ejemplo() {
     for(int f=0;f<(DIMENSION*DIMENSION);f++){
         cout<<a[f]<<", ";
     }
+
     cout<<endl<<endl;
+
     cout<<"ARRAY Multidimensional de una DIMENSION: "<<DIMENSION<<"x"<<DIMENSION<<"->"<<DIMENSION*DIMENSION<<endl;
     for (int f=0;f<DIMENSION;f++){
         for(int c=0;c<DIMENSION;c++){
             cout<<aa[f][c]<<", ";
         }
     }
+
     cout<<endl<<endl;
 }

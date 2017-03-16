@@ -20,7 +20,7 @@ void mostrar (int **m, int fila, int columna) {
     cout<<endl<<endl;
 }
 
-void principal () {
+int main () {
     int fila, columna;
 
     cout<<"Dimension para FILA: ";
@@ -46,4 +46,6 @@ void principal () {
     mostrar((int **)bb, fila, columna);
     cout<<"Vector CC: "<<endl;
     mostrar((int **)cc, fila, columna);
+
+    return 0;
 }
