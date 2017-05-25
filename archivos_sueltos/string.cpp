@@ -12,6 +12,7 @@ int main() {
     cout << subcadena << "\n";
     string subcadena2;
     subcadena2 = texto1.substr(0, 5); // 5 letras de texto1, desde el comienzo
+    cout << subcadena2 << "\n";
     texto1.insert(texto1.size(), "verdad? "); // Inserto un texto en la posicion 6
     cout << texto1 << "\n";
     texto2.replace(0, 1, "Te"); // Cambio 2 letras en la posicion 2

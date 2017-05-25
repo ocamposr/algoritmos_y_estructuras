@@ -72,15 +72,15 @@ static int operacion (int opcion) {
     return 0;
 }
 
-int calculadora (){
+int main (){
     int opcion = menu();
     if (opcion < 5){
         opcion = operacion(opcion);
-        calculadora();
+        main();
     } else if (opcion > 5) {
         cout<<"Opcion invalida, seleccione nuevamente..."<<endl;
         system("pause");
-        calculadora();
+        main();
     } else {
         cout<<"Saliendo del sistema..."<<endl;
         system("exit");

@@ -10,7 +10,7 @@ int main(){
     string Mensaje;
     Mensaje="Hola!";
 
-    cout<<texto1<<"tipo: "<<decltype(texto1)<<endl;
+    cout<<texto1<<endl;
     cout<<texto2<<endl;
     cout<<texto3<<endl;
     strcat(texto1,texto2);
